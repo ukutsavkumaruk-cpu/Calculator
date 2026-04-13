@@ -1,0 +1,109 @@
+.big{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+.cal{
+    border: 1px solid black;
+    height: 550px;
+    width: 350px;
+    background-color: #2b2929;
+    border-radius: 100px 30px 30px 30px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.display{
+    background-color: #666161a7;
+    height: 90px;
+    border-radius: 250px 45px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.exp{
+    height: 41px;
+    border-radius: 10px 10px 0px 0px;
+    padding-right: 8px;
+    padding-top: 10px;
+    font-size: 30px;
+    text-align: right;
+   
+    
+}
+/* hr{
+    height: 1px;
+    width: 325px;
+    border: none;
+    background-color: black;
+    position: relative;
+    left: 8px;
+} */
+.ans{
+    height: 41px;
+    border-radius:  0px 0px 10px 10px;
+    padding-right: 8px;
+    padding-top: 9px;
+    text-align: right;
+}
+.symbol{
+    background-color: #666161a7;
+    height: 448px;
+    width: 340px;
+    border-radius: 10px 10px 30px 30px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.btn,.btn_symb, .func,.rem_func{
+    height:65px;
+    width:65px;
+    background-color: rgb(37, 36, 36);
+    border: none;
+    border-radius: 50%;
+    box-shadow: 6px 6px 8px rgb(21, 18, 17),-6px -6px 8px rgb(99, 99, 100);
+    color:white;
+    margin: 5px 3px 5px 3px ;
+    font-size: 20px;
+    cursor: pointer;
+    transition: box-shadow .2s ease-in 0s ;
+}
+.btn:hover,
+.btn_symb:hover,
+.func:hover,
+.rem_func:hover{
+    box-shadow: 2px 2px 4px rgb(21, 18, 17),-2px -2px 4px rgb(99, 99, 100);
+}
+.rem_func{
+    color: rgb(57, 3, 3);
+    background-color: rgba(139, 53, 53,.4);;
+}
+.btn{
+    color: rgb(76, 127, 141);
+}
+#res{
+    color: green;
+    background-color: rgba(9, 100, 9,.39);
+    font-size: 25px;
+    font-weight: 700;
+    border-radius: 20px;
+    width: 300px;
+    height: 60px;
+    margin-left: 6px;
+}
+.btn_symb{
+    color: rgb(6, 106, 168);
+    background-color:rgba(9, 42, 62, 0.4);
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+}
